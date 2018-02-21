@@ -1,4 +1,4 @@
-function solveSudoku(matrix) {
+module.exports = function solveSudoku(matrix) {
   var arr1=[], arr2=[], arr3=[], arr4=[], arr5=[], arr6=[], arr7=[], arr8=[], arr9=[];
   var arr=[arr1, arr2, arr3, arr4, arr5, arr6, arr7, arr8, arr9];
   var array=matrix;
